@@ -1,4 +1,5 @@
 ####mediation####
+library('lavaan')
 ####left hippocampus####
 df%<>%outlier_rm(1)
 med_model_cov <- function(df) {
